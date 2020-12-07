@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("passwords")
+	file, err := os.Open("input_day_2.txt")
 
 	if err != nil {
 		log.Fatalf("failed opening file: %s", err)

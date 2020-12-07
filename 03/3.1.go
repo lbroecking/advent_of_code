@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("trees")
+	file, err := os.Open("input_day_3.txt")
 
 	if err != nil {
 		log.Fatalf("failed opening file: %s", err)

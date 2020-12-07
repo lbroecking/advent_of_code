@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	file_content, _ := ioutil.ReadFile("passport.txt")
+	file_content, _ := ioutil.ReadFile("input_day_4.txt")
 	string_content := string(file_content)
 	input := strings.Split(string_content, "\n\n")
 
