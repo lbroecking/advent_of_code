@@ -29,7 +29,7 @@ func main() {
 
 	//Part 2
 	count = getBagInBag(goal_bag, bags_input)
-	fmt.Println("Part 2: ", count) //144
+	fmt.Println("Part 2: ", count) //5956
 
 }
 
